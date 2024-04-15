@@ -25,11 +25,11 @@ This will scrape all projects from the project website and write them to csv fil
 
 ## 4. Run the changes script to see what projects are new
 
-Run the file using `python3 format.py "<Old File name>" "<New File name>"`
+Run the file using `python3 changes.py "<Old File name>" "<New File name>"`
 
 where the \<Old File name\> should be replaced with the csv file with all the old projects you have already, and the \<New File name\> should be replaced with the csv file with all the projects currently available
 
-So the command will probably look like `python3 format.py "formatted.csv" "output.csv"`
+So the command will probably look like `python3 changes.py "formatted.csv" "output.csv"`
 
 All the new projects will be written to the file "changes.csv" - at this point it is recomended to check changes.csv to see if everything looks good.
 
